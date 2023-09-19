@@ -37,13 +37,44 @@
     <artifactId>tomcat-jasper</artifactId>
     <version>10.1.12</version>
 </dependency>
-
-<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>javax.servlet-api</artifactId>
+    <version>4.0.1</version>
+    <scope>provided</scope>
+</dependency>
+<dependency>
+    <groupId>org.hibernate.orm</groupId>
+    <artifactId>hibernate-core</artifactId>
+    <version>6.0.0.Alpha2</version>
+</dependency>
+    <!-- https://mvnrepository.com/artifact/org.springframework/spring-orm -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-orm</artifactId>
+    <version>5.1.4.RELEASE</version>
+</dependency>
+    <!-- https://mvnrepository.com/artifact/org.springframework/spring-tx -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-tx</artifactId>
+    <version>5.1.4.RELEASE</version>
+</dependency>
+    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+>>>>>>> 704a8290064d0c62e78088bdad612c200a273bfa
 <dependency>
     <groupId>mysql</groupId>
     <artifactId>mysql-connector-java</artifactId>
-    <version>8.0.33</version>
+    <version>8.0.13</version>
 </dependency>
+    <!-- https://mvnrepository.com/artifact/com.mchange/c3p0 -->
+<dependency>
+    <groupId>com.mchange</groupId>
+    <artifactId>c3p0</artifactId>
+    <version>0.9.5.3</version>
+</dependency>
+
 
 	</dependencies>
 
