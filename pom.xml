@@ -44,25 +44,8 @@
     <version>4.0.1</version>
     <scope>provided</scope>
 </dependency>
-<dependency>
-    <groupId>org.hibernate.orm</groupId>
-    <artifactId>hibernate-core</artifactId>
-    <version>6.0.0.Alpha2</version>
-</dependency>
-    <!-- https://mvnrepository.com/artifact/org.springframework/spring-orm -->
-<dependency>
-    <groupId>org.springframework</groupId>
-    <artifactId>spring-orm</artifactId>
-    <version>5.1.4.RELEASE</version>
-</dependency>
-    <!-- https://mvnrepository.com/artifact/org.springframework/spring-tx -->
-<dependency>
-    <groupId>org.springframework</groupId>
-    <artifactId>spring-tx</artifactId>
-    <version>5.1.4.RELEASE</version>
-</dependency>
+
     <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
->>>>>>> 704a8290064d0c62e78088bdad612c200a273bfa
 <dependency>
     <groupId>mysql</groupId>
     <artifactId>mysql-connector-java</artifactId>
