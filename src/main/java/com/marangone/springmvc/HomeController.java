@@ -43,6 +43,33 @@ public class HomeController
 		return "showAliens";
 	}
 	
+	@GetMapping("getAlienById")
+	public String getAlienById(@RequestParam int aid, Model m) {
+		
+		m.addAttribute("result",repo.getReferenceById(aid));
+		return "showAliens";
+	}
+	
+	@GetMapping("getAlienByName")
+	public String getAlienByName(@RequestParam String aname, Model m) {
+		
+		m.addAttribute("result",repo.findByName(aname));
+		return "showAliens";
+	}
+	
+	@PostMapping(value="addAlien")
+	public String addAlien(@ModelAttribute Alien a){
+
+		repo.save(a);
+		
+		return "result";
+	}
+
+}
+	
+	//Ejemplos de ADD
+	/*
+	 
 	@RequestMapping("add")
 	public ModelAndView add(@RequestParam("num1")int i, @RequestParam("num2")int j)
 	{
@@ -66,6 +93,7 @@ public class HomeController
 	public String addAlienPro(@ModelAttribute ("a1") Alien a){	
 		
 		return "result";
-	}
-	
-}
+	} 
+	 */
+	 
+

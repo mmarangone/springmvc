@@ -12,10 +12,6 @@ public class Alien {
 	
 	public Alien(){};
 	
-	public int getAid() {
-		return aid;
-	}
-	
 	
 	public Alien(int aid, String aname) {
 		super();
@@ -23,6 +19,9 @@ public class Alien {
 		this.aname = aname;
 	}
 
+	public int getAid() {
+		return aid;
+	}
 
 	public void setAid(int aid) {
 		this.aid = aid;
